@@ -1,3 +1,4 @@
 scikit_learn
 pandas
 visual
+streamlit
