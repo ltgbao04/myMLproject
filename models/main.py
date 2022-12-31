@@ -1,6 +1,5 @@
-from models.utils import load_data
 import visual
-from utils import *
+from .utils import *
 import train
 
 if __name__ == "__main__":
