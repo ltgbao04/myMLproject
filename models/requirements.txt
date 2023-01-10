@@ -1,3 +1,6 @@
-scikit_learn
+sklearn
 pandas
-visual
+visualpython
+numpy
+matplotlib
+visualpython

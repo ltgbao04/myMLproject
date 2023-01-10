@@ -1,8 +1,8 @@
-import visual
-from .utils import *
+import visualize
+from utils import *
 import train
 
 if __name__ == "__main__":
-    df = load_data("../data/tvmarketing.csv")
+    df = load_data("../data/segmented_customers.csv")
     X_train, Y_train, models = train.trainModel(df)
-    visual.visualize(X_train, Y_train, models)
+    visualize.visualize(X_train, Y_train, models)
